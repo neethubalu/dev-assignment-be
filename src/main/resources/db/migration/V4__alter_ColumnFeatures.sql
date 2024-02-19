@@ -1,0 +1,6 @@
+ALTER TABLE airport ALTER COLUMN code VARCHAR(20);
+ALTER TABLE airport ALTER COLUMN country VARCHAR(60);
+
+ALTER TABLE flight ALTER COLUMN code VARCHAR(20);
+ALTER TABLE flight ALTER COLUMN origin_airport_id VARCHAR(20);
+ALTER TABLE flight ALTER COLUMN destination_airport_id VARCHAR(20);
